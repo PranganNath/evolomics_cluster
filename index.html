@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Computing Facility – Dr. Pankaj Barah's Laboratory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+.header-bar {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 120px;
+    align-items: center;
+}
+
+.header-content img {
+    max-height: 90px;
+    width: auto;
+}
+
+.header-title {
+    text-align: center;
+}
+
+.header-title h1 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 25px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 26px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px 20px;
+            background: #ffffff;
+        }
+
+        h2 {
+            color: #003366;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 6px;
+        }
+
+        ul {
+            margin-left: 20px;
+            font-size: 16px;
+        }
+
+        ul li {
+            margin-bottom: 12px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        .caption {
+            font-size: 14px;
+            text-align: center;
+            margin-top: 6px;
+            color: #555;
+        }
+
+        .funding-box {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #eef3f8;
+            border-left: 5px solid #003366;
+        }
+
+        footer {
+            background-color: #003366;
+            color: #ffffff;
+            text-align: center;
+            padding: 12px;
+            font-size: 13px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header class="header-bar">
+    <div class="header-content">
+
+        <!-- Left: Tezpur University Logo -->
+        <div style="text-align:left;">
+            <img src="TU_logo.png" alt="Tezpur University Logo">
+        </div>
+
+        <!-- Center: Title -->
+        <div class="header-title">
+            <h1>
+                Computing Facility at Dr. Pankaj Barah's Laboratory,<br>
+                Department of Molecular Biology and Biotechnology (MBBT),<br>
+                Tezpur University
+            </h1>
+        </div>
+
+        <!-- Right: MBBT Logo -->
+        <div style="text-align:right;">
+            <img src="mbbt_logo.png" alt="MBBT Logo">
+        </div>
+
+    </div>
+</header>
+
+<div class="container">
+
+    <p>
+        Dr. Pankaj Barah’s laboratory hosts a dedicated computing and data
+        analytics infrastructure to support systems biology, big data analytics,
+        machine learning, bioinformatics, and integrative multi-omics research.
+    </p>
+
+    <h2>Server Infrastructure</h2>
+
+    <div class="gallery">
+        <div>
+            <img src="img1.jpg" alt="Server rack internal view">
+            <div class="caption">Server rack – internal view</div>
+        </div>
+        <div>
+            <img src="img2.jpg" alt="Server rack front view">
+            <div class="caption">Server rack – front view</div>
+        </div>
+        <div>
+            <img src="img3.jpg" alt="HPE servers and NAS">
+            <div class="caption">HPE compute and storage units</div>
+        </div>
+        <div>
+            <img src="img4.jpg" alt="Closed server rack">
+            <div class="caption">Fully assembled server rack</div>
+        </div>
+    </div>
+
+    <!-- DBT Project -->
+    <div class="funding-box">
+        <h2>Funding Support – Department of Biotechnology (DBT)</h2>
+
+        <p><strong>Funding Agency:</strong> Department of Biotechnology, Government of India</p>
+
+        <p>
+            <strong>Project Title:</strong><br>
+            <em>
+                Integrative system biology approach to identify the molecular
+                response signatures in rice during concurrent biotic
+                (Rhizoctonia solani) and abiotic (heat) stress
+            </em>
+        </p>
+
+        <p><strong>Sanction Number:</strong> BT/PR24757/NER/95/843/2017</p>
+
+        <p><strong>Computing and Networking Infrastructure Procured:</strong></p>
+
+        <ul>
+            <li><strong>Big Data Processing 4-Socket Server</strong> – HPE ProLiant XL170r Gen10</li>
+            <li><strong>Big Data Processing 2-Socket Server</strong> – HPE ProLiant XL170r Gen10</li>
+            <li><strong>Network Attached Storage (NAS)</strong> – HPE StoreEasy 1660 Storage</li>
+            <li><strong>Server Console</strong> – Dell P2419H Monitor</li>
+            <li><strong>16-Port Gigabit Network Switch</strong> – D-Link</li>
+        </ul>
+    </div>
+
+    <!-- DST-SERB Project -->
+    <div class="funding-box">
+        <h2>Funding Support – DST-SERB</h2>
+
+        <p><strong>Funding Agency:</strong> Department of Science and Technology (DST-SERB), Government of India</p>
+
+        <p>
+            <strong>Project Title:</strong><br>
+            <em>
+                Big data and Machine learning based approach to understand combined
+                stress response signatures in multiple cultivating crop plants
+            </em>
+        </p>
+
+        <p><strong>Project Number:</strong> SRG/2019/001924</p>
+
+        <p><strong>Infrastructure Procured / Expanded:</strong></p>
+
+        <ul>
+            <li>
+                <strong>Big Data Processing 2-Socket Server</strong><br>
+                (Expansion of existing HPC) – HPE ProLiant XL170r Gen10
+            </li>
+            <li>
+                <strong>Network Attached Storage (NAS)</strong><br>
+                (Expansion of existing NAS) – HPE StoreEasy 1660 with 8 × 8 TB HDDs
+            </li>
+        </ul>
+    </div>
+
+    <!-- Final consolidated infrastructure -->
+    <h2>Available Computing Facility (Overall)</h2>
+
+    <ul>
+        <li>
+            <strong>3 × Workstations</strong><br>
+            12-Core Intel Xeon CPU, 64 GB Memory – Dell Precision 3630
+        </li>
+
+        <li>
+            <strong>3 × ProSeries Desktops</strong><br>
+            12-Core Intel Core i7 CPU, 16 GB Memory – HP ProDesk 600
+        </li>
+
+        <li>
+            <strong>3 × Desktop Systems</strong><br>
+            6-Core Intel Core i5 CPU, 8 GB Memory – Dell OptiPlex 3060
+        </li>
+
+        <li>
+            <strong>High Performance Computing (HPC) Cluster</strong><br>
+            156 CPU Cores, 756 GB RAM, 110 TB Network Attached Storage<br>
+            (64 TB NAS in RAID configuration, ECC memory, Gigabit switch for
+            inter-node I/O, Gigabit switch for LAN connectivity, Blue Star
+            precision cooling system)
+        </li>
+    </ul>
+<h2>Laboratory and Computational Workspace</h2>
+
+<p>
+    The laboratory provides a dedicated, air-conditioned computational workspace
+    for researchers and students, housing workstations, desktop systems, and
+    direct access to the high-performance computing infrastructure.
+</p>
+
+<div class="gallery">
+    <div>
+        <img src="img5.jpg" alt="Computational laboratory workspace view 1">
+        <div class="caption">Computational laboratory – workstations and server enclosure</div>
+    </div>
+
+
+</div>
+
+</div>
+
+</body>
+</html>
